@@ -231,3 +231,58 @@ saas-financial-models/
 ---
 
 *Built with ❤️ for the SaaS finance community. PRs welcome.*
+
+--------
+
+## Releases
+
+### v2.0 · Latest
+**Light theme + CSV upload**  
+Rebuilt the dashboard with a clean white interface and added a CSV upload tab 
+that lets you load your own SaaS metrics directly into all charts. Includes 
+auto column mapping, a downloadable CSV template, and a full format guide.
+
+**What's new:**
+- Light theme (white surfaces, dark text, updated chart colors)
+- CSV upload with drag & drop and auto column mapping
+- Downloadable CSV template with all 21 supported columns
+- Input validation and live status feedback on upload
+
+---
+
+### v1.0
+**Original release — dark theme**  
+The first version of the SaaS FP&A dashboard. Dark interface with a fully 
+interactive input mask, three scenario presets (Base / Bull / Bear), and 
+24-month model engine. No CSV upload.
+
+**Includes:**
+- Dark theme dashboard
+- MRR/ARR waterfall, P&L variance, unit economics, cohort retention, forecast
+- Live input mask with Base, Bull, and Bear scenario switcher
+- Python model engine (zero dependencies)
+
+---
+
+## Repository Structure
+```
+saas-financial-models/
+│
+└── 02_controlling_fpa/
+    ├── v1/
+    │   ├── saas_fpa_dashboard.html     ← dark theme, input mask, scenario switcher
+    │   ├── saas_controlling_model.py   ← Python FP&A model engine
+    │   ├── README_controlling_fpa.md   ← module documentation
+    │   ├── INPUT_MASK_GUIDE.md         ← input mask & parameter guide
+    │   └── .gitignore
+    │
+    └── v2/
+        ├── saas_fpa_dashboard.html     ← light theme + CSV upload tab
+        ├── saas_controlling_model.py   ← Python FP&A model engine
+        ├── README_controlling_fpa.md   ← module documentation
+        ├── INPUT_MASK_GUIDE.md         ← input mask & parameter guide
+        └── .gitignore
+│
+├── LICENSE                             ← MIT license (covers all versions)
+└── README.md                           ← this file
+```
