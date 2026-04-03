@@ -5,7 +5,7 @@ SaaS FP&amp;A dashboard — MRR/ARR waterfall, budget variance, unit economics &
 # 📊 SaaS Controlling & Financial Planning Model
 
 > **Module:** Controlling & Financial Planning (FP&A)  
-> **Series:** AI-Powered Financial Models for SaaS  
+> **Series:** Financial Models for SaaS  
 > **Version:** 1.0.0 | Python · No external dependencies  
 > **License:** MIT
 
